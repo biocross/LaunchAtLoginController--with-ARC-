@@ -14,7 +14,9 @@ It uses LSSharedFileList which means your Users will be able to check/uncheck yo
 ## IMPLEMENTATION (via Code):
 
 ### Will app launch at login?
-
+	
+	//don't forget to add  #import "LaunchAtLoginController.h" to your implementation file.
+	
     LaunchAtLoginController *launchController = [[LaunchAtLoginController alloc] init];
 	BOOL launch = [launchController launchAtLogin];
 	[launchController release];
@@ -46,6 +48,8 @@ If you're trying to set a different bundle (perhaps a HelperApp as a resource to
 to return the path to this other bundle.
 
 ## REQUIREMENTS:
+
+None
 
 Last tested on 16th May 2013, XCode 4.6.1, Mac OSX 10.8.3
 
