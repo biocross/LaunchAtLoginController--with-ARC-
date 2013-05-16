@@ -7,7 +7,7 @@ A modified version of the original by Mozketo (at https://github.com/Mozketo/Lau
 
 ## Description:
 
-A very simple snippet to implement Controller for use in Cocoa Mac Apps to register/deregister itself for Launch at Login using LSSharedFileList (In simple terms, helps your Cocoa/Objective-C App to launch automatically at login).
+A very simple controller for use in Cocoa Mac Apps to register/deregister itself for Launch at Login using LSSharedFileList (In simple terms, helps your Cocoa/Objective-C App to launch automatically at login).
 
 It uses LSSharedFileList which means your Users will be able to check/uncheck your App in System Preferences > Accounts > Login Items.
 
