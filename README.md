@@ -16,16 +16,16 @@ It uses LSSharedFileList which means your Users will be able to check/uncheck yo
 ### Will app launch at login?
 	
 	//don't forget to add  #import "LaunchAtLoginController.h" to your implementation file.
-	
+
     LaunchAtLoginController *launchController = [[LaunchAtLoginController alloc] init];
 	BOOL launch = [launchController launchAtLogin];
-	[launchController release];
+
 
 ### Set launch at login state.
 
 	LaunchAtLoginController *launchController = [[LaunchAtLoginController alloc] init];
 	[launchController setLaunchAtLogin:YES];
-	[launchController release];
+
 
 ## IMPLEMENTATION (via the Interface Builder):
 
